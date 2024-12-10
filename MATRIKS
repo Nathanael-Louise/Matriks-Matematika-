@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matriks Matematika</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background: #f0f2f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        .slide {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #3498db;
+            margin: 20px 0 10px;
+        }
+        .matrix {
+            font-family: monospace;
+            white-space: pre;
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        .example {
+            background: #e8f4f8;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide">
+        <h1>MATRIKS MATEMATIKA</h1>
+
+        <h2>1. Pengertian dan Definisi</h2>
+        <ul>
+            <li>Matriks adalah kumpulan bilangan yang disusun dalam baris dan kolom dan ditulis dalam bentuk persegi panjang</li>
+            <li>Matriks dibatasi oleh kurung siku [ ] atau kurung biasa ( )</li>
+            <li>Ukuran matriks ditentukan oleh jumlah baris (m) dan kolom (n), ditulis sebagai matriks berordo m × n</li>
+        </ul>
+
+        <h2>2. Jenis-jenis Matriks</h2>
+        <ul>
+            <li>Matriks Baris (1×n)
+                <div class="matrix">[a  b  c  d]</div>
+            </li>
+            <li>Matriks Kolom (m×1)
+                <div class="matrix">[a]
+[b]
+[c]</div>
+            </li>
+            <li>Matriks Persegi (n×n)
+                <div class="matrix">[1  2]
+[3  4]</div>
+            </li>
+            <li>Matriks Identitas
+                <div class="matrix">[1  0]
+[0  1]</div>
+            </li>
+            <li>Matriks Segitiga Atas
+                <div class="matrix">[1  2  3]
+[0  4  5]
+[0  0  6]</div>
+            </li>
+            <li>Matriks Segitiga Bawah
+                <div class="matrix">[1  0  0]
+[4  5  0]
+[7  8  9]</div>
+            </li>
+            <li>Matriks Diagonal
+                <div class="matrix">[1  0  0]
+[0  2  0]
+[0  0  3]</div>
+            </li>
+            <li>Matriks Nol
+                <div class="matrix">[0  0]
+[0  0]</div>
+            </li>
+            <li>Matriks Transpose: hasil pertukaran baris dan kolom</li>
+        </ul>
+
+        <h2>3. Operasi Dasar Matriks</h2>
+        <ul>
+            <li>Penjumlahan/pengurangan: menjumlahkan/mengurangkan elemen yang bersesuaian</li>
+            <li>Perkalian dengan skalar: mengalikan setiap elemen dengan bilangan skalar</li>
+            <li>Perkalian matriks: mengalikan baris dengan kolom yang bersesuaian</li>
+        </ul>
+
+        <h2>4. Contoh Operasi</h2>
+        <div class="example">
+            Matriks A = [2  3]
+                       [1  4]
+
+            Matriks B = [1  2]
+                       [3  1]
+
+            A + B =    [3  5]
+                       [4  5]
+
+            2 × A =    [4  6]
+                       [2  8]
+
+            A × B =    [11  8]
+                       [13  6]
+        </div>
+    </div>
+</body>
+</html>
